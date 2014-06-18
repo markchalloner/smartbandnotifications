@@ -121,6 +121,7 @@ public final class FireReceiver extends BroadcastReceiver
 						            }
 				            	} else {
 				            		notificationManager.cancel(NOTIFICATION_ID);
+				            		break;
 						        }
 				            }
 				        }
