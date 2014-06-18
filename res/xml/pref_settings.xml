@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   	<PreferenceCategory 
+        android:title="App settings"
+        android:key="first_category">
+        
+        <CheckBoxPreference 
+            android:key="enabled"
+            android:title="Enabled"
+            android:summary="Define whether to enable or disable SmartBand Notifications"
+            android:defaultValue="true"
+            
+        />    
+            
+    </PreferenceCategory>
+
+</PreferenceScreen>

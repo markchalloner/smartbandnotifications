@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   	<PreferenceCategory 
+        android:title="Action"
+        android:key="first_category">
+        
+        <ListPreference 
+            android:key="action"
+            android:title="Action"
+            android:summary="Define whether to trigger or cancel a notification"
+            android:defaultValue="Trigger" 
+            android:entries="@array/action"
+            android:entryValues="@array/actionValues"
+            
+        />    
+            
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="Notification"
+        android:key="second_category">
+
+        <EditTextPreference
+            android:key="count"
+            android:title="Notification number" 
+            android:summary="Define the number of notifications (blank or 0 for infinite)"
+            android:dialogTitle="Notification number"
+            android:dialogMessage="Provide the number of notifications to trigger"    
+            android:defaultValue="0"
+            android:inputType="number" />
+    	
+    	<EditTextPreference 
+            android:key="interval"
+            android:title="Notification interval"
+            android:summary="Define how often notifications will be created"
+            android:dialogTitle="Notification number"
+            android:dialogMessage="Provide the interval between notifications in milliseconds: minimum of 1000."    
+            android:defaultValue="2000"
+            android:inputType="number" />
+    
+    </PreferenceCategory>
+</PreferenceScreen>

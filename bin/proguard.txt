@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:27
+-keep class net.markc.android.smartbandnotifications.PluginApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class net.markc.android.smartbandnotifications.receiver.FireReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class net.markc.android.smartbandnotifications.ui.EditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class net.markc.android.smartbandnotifications.ui.InfoActivity { <init>(...); }
+

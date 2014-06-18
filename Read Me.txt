@@ -1,0 +1,1 @@
+This is a sample Locale Plug-in setting that will display a customizable Toast message when fired.  We encourage plug-in developers to use this sample as a template for building new plug-ins.  This plug-in has been implemented using best practices and it includes an extensive test suite that verifies compatibility with Locale.
