@@ -15,7 +15,10 @@ The code is based on the Locale demo plugin so probably would work with anything
 ## Installation
 
 - Enable installing apps from unknown sources (See [User Opt-In for Apps from Unknown Sources](http://developer.android.com/distribute/tools/open-distribution.html#unknown-sources)) under Settings > Security
-- Browse to [SmartBandNotifications.apk](bin/SmartBandNotifications.apk?raw=true)
+- Browse to https://github.com/markchalloner/smartbandnotifications/blob/master/bin/SmartBandNotifications.apk?raw=true on your phone
+- Open the downloaded [SmartBandNotifications.apk](bin/SmartBandNotifications.apk?raw=true)
+- Install as normal
+- Set your unknown sources setting back
 
 ## Usage
 
