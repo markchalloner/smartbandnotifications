@@ -1,5 +1,10 @@
 # Smartband Notifications
 
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+
 ## Introduction
 
 Tasker plugin that creates a number of notifications over an interval. Used to make the Sony SWR10 SmartBand vibrate.
